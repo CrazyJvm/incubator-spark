@@ -80,7 +80,7 @@ case class Rating(val user: Int, val product: Int, val rating: Double)
  *
  * For implicit preference data, the algorithm used is based on
  * "Collaborative Filtering for Implicit Feedback Datasets", available at
- * [[http://research.yahoo.com/files/HuKorenVolinsky-ICDM08.pdf]]], adapted for the blocked approach
+ * [[http://research.yahoo.com/files/HuKorenVolinsky-ICDM08.pdf]], adapted for the blocked approach
  * used here.
  *
  * Essentially instead of finding the low-rank approximations to the rating matrix `R`,
